@@ -1,5 +1,15 @@
-
 {
-    
-    
+    "templates" : [
+        {
+            "text": ["You walk through a cluster of trees and find yourself on a ",""," riverbank. To your left, you see a ",""," waterfall. To your right, a ","",""," is sleeping. Ahead, the river flows ",""," downstream."],
+            
+            "elements":[
+                "adj",
+                "adj",
+                "adj",
+                "noun",
+                "adverb"
+            ]
+        }
+    ]
 }
