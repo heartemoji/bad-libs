@@ -1,7 +1,7 @@
 {
     "templates" : [
         {
-            "text": ["You walk through a cluster of trees and find yourself on a ",""," riverbank. To your left, you see a ",""," waterfall. To your right, a ","",""," is sleeping. Ahead, the river flows ",""," downstream."],
+            "text": ["You walk through a cluster of trees and find yourself on a ","0"," riverbank. To your left, you see a ","0"," waterfall. To your right, a ","0","0"," is sleeping. Ahead, the river flows ","0"," downstream."],
             
             "elements":[
                 "adj",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "text": ["High up on a cliff, you see a ",""," below. To your left, you see a ",""," waterfall. To your right, a ","",""," is sleeping. Ahead, the river flows ",""," downstream."],
+            "text": ["High up on a cliff, you see a ","0"," below. To your left, you see a ","0"," waterfall. To your right, a ","0"," is sleeping." ],
             
             "elements":[
                 "noun",
@@ -21,12 +21,11 @@
             ]
         },
         {
-            "text": ["High up on a cliff, you see a ",""," below. To your left, you see a ",""," waterfall. To your right, a ","",""," is sleeping. Ahead, the river flows ",""," downstream."],
+            "text": ["High up on a cliff, you see a ","0"," below. To your left, you see a ","0"," waterfall."],
             
             "elements":[
                 "adverb",
                 "adj"
-                
             ]
         }
     ]
