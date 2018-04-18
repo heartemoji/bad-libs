@@ -94,6 +94,8 @@ h1 {
 
 p {
     font-size: 14pt;
+    padding-top: 10px;
+    padding-bottom:10px;
 }
 
 #inputs {
@@ -104,6 +106,7 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 12pt;
+    display: block;
 }
 
 
