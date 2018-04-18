@@ -10,6 +10,24 @@
                 "noun",
                 "adverb"
             ]
+        },
+        {
+            "text": ["High up on a cliff, you see a ",""," below. To your left, you see a ",""," waterfall. To your right, a ","",""," is sleeping. Ahead, the river flows ",""," downstream."],
+            
+            "elements":[
+                "noun",
+                "adj",
+                "adj"
+            ]
+        },
+        {
+            "text": ["High up on a cliff, you see a ",""," below. To your left, you see a ",""," waterfall. To your right, a ","",""," is sleeping. Ahead, the river flows ",""," downstream."],
+            
+            "elements":[
+                "adverb",
+                "adj"
+                
+            ]
         }
     ]
 }
