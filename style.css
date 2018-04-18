@@ -96,6 +96,7 @@ p {
     font-size: 14pt;
     padding-top: 10px;
     padding-bottom:10px;
+    line-height: 1.15;
 }
 
 #inputs {
