@@ -36,23 +36,50 @@ $(document).ready(function(){
 
 $("#element-form").submit(function(e){
     e.preventDefault();
-    var form = document.getElementById("element-form");
+    var inputform = document.getElementById("element-form");
     
-    for(var i = 0; i < form.elements.length - 1; i++){
-        entries.push(form.elements[i].value);
+    
+    for(var i = 0; i < inputform.elements.length - 1; i++){
+        entries.push(inputform.elements[i].value);
     }
     
-    while(form.firstChild){
-        form.removeChild(form.firstChild);
+    while(inputform.firstChild){
+        inputform.removeChild(inputform.firstChild);
     }
     
     document.getElementById("form-header").innerHTML = "Here is your Bad-lib!";
     
+    var fullText = [];
+    
+    form.text.forEach(function(e){
+        if(e == "0"){
+            fullText.push(entries.shift());
+        }
+        else{
+            fullText.push(e);
+        }
+        
+        console.log(e); 
+    });
+
+    
+    
     var p = document.createElement("p");
-    p.innerHTML = "test";
+    p.innerHTML = fullText.join("");
+    inputform.append(p);
     
-    form.append(p);
+    var newBadlib = document.createElement("input");
+    newBadlib.setAttribute("type","submit");
+    newBadlib.classList.add("btn");
+    newBadlib.classList.add("submit-button");
+    newBadlib.value = "New Bad-lib!";
+    newBadlib.onclick = function(){
+        
+        $("output").remove("input-form");
+        inputform.submit();
+        location.reload();
+    };
+
+    inputform.append(newBadlib);
     
-    console.log(entries);
-    //form.submit();
 });
